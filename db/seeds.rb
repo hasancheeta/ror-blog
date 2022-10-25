@@ -5,3 +5,28 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Product.create(
+    name: 'Lg W200 - Urbane Smart Watch',
+    description: 'This Lg smart watch is the best watch and first ever android watch in the world.',
+    price: 455,
+)
+Product.create(
+    name: 'Lg W201 - Urbane Smart Watch',
+    description: 'This Lg smart watch is the best watch and first ever android watch in the world.',
+    price: 405,
+)
+Product.create(
+    name: 'Lg At&t - Urbane Smart Watch',
+    description: 'This Lg smart watch is the best watch and first ever android watch in the world.',
+    price: 455,
+)
+Product.create(
+    name: 'Lg G7 thinq - Urbane Smart Watch',
+    description: 'This Lg smart watch is the best watch and first ever android watch in the world.',
+    price: 455,
+)
+Product.create(
+    name: 'Lg G4 thinq - Urbane Smart Watch',
+    description: 'This Lg smart watch is the best watch and first ever android watch in the world.',
+    price: 455,
+)
