@@ -1,5 +1,7 @@
 <h1>Particular Product</h1>
 
-    <h1> <%= @product.id %> <%= @product.name %> </h1>
+    <h1>  <%= @product.name %> </h1>
     <b> <%= number_to_currency @product.price %> </b>
     <p> <%= @product.description %> </p>
+
+<strong> <%= link_to 'Back to Products', products_path %> </strong>
