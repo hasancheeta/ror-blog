@@ -5,3 +5,4 @@
     <p> <%= @product.description %> </p>
 
 <strong> <%= link_to 'Back to Products', products_path %> </strong>
+<%= button_to "delete", @product, :method => :delete %>

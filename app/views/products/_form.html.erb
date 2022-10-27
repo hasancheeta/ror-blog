@@ -1,0 +1,14 @@
+<%= form_with(model: product) do |form| %>
+    <%= form.label :name, "Product Title:" %>
+    <%= form.text_field :name %>
+<br/>
+    <%= form.label "Product Description" %>
+    <%= form.text_area :description %>
+    <br/>
+
+    <%= form.label "Price" %>
+    <%= form.number_field :price %>
+    <br/>
+
+    <%= form.submit "Add" %>
+  <% end %>
